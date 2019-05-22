@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="135dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="3dp"
+    card_view:cardElevation="4dp"
+    android:id="@+id/cardId"
+    card_view:cardMaxElevation="6dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/news_relativeId"
+        >
+
+        <ImageView
+            android:id="@+id/news_row_ImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/news_row_ImageView"
+            android:text="Farida Begum"
+            android:id="@+id/news_row_nameText"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_marginLeft="15dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Disease Details"
+            android:layout_toRightOf="@id/news_row_ImageView"
+            android:layout_marginTop="30dp"
+            android:id="@+id/news_rowDiseaseDetails"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/news_row_ImageView"
+            android:layout_marginTop="90dp"
+            android:text="Needed Taka :"
+            android:textStyle="bold"
+            />
+   <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/news_row_amountId"
+            android:layout_toRightOf="@id/news_row_ImageView"
+            android:layout_marginTop="90dp"
+            android:text="500000"
+            android:textStyle="bold"
+       android:layout_marginLeft="92dp"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
